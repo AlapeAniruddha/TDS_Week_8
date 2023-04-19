@@ -20,6 +20,10 @@ def largest_num(num_1,num_2,num_3):
         st.write('All the numbers are equal and the value is = ',num_3)
     elif num_3 == num_2 and num_3 != num_1: 
         st.write('Two numbers are equal and the value is = ',num_3)  
+    elif num_1 == num_2 and num_3 != num_1: 
+        st.write('Two numbers are equal and the value is = ',num_1)  
+    elif num_3 == num_1 and num_3 != num_2: 
+        st.write('Two numbers are equal and the value is = ',num_3)  
 
 if st.button('Find Largest'):
     largest_num(num_1,num_2,num_3)
