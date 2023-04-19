@@ -1,5 +1,10 @@
 import streamlit as st
 
+st.write("""
+# Largest number identifier
+This app identifies the largest of the given three numbers
+""")
+
 num_1 = st.number_input("Enter the first number",step=1)
 num_2 = st.number_input("Enter the second number",step=1)
 num_3 = st.number_input("Enter the third number",step=1)
